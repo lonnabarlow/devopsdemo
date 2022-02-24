@@ -7,6 +7,7 @@ const rollbar = new Rollbar({
   captureUncaught: true,
   captureUnhandledRejections: true,
 })
+rollbar.log("Hello World")
 
 const app = express()
 
